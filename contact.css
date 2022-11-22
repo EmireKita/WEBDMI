@@ -1,0 +1,266 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* color: rgb(126, 124, 124); */
+}
+
+/* marquee {
+    font-weight: bolder;
+    font-family: Garamond;
+    padding: 15px 0px;
+} */
+
+.fContainer {
+    background-image: url(gambar/what-the-hex.webp);
+}
+
+.navbar {
+    top: 0;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 60px 0px 60px;
+    background-color: #749f82;
+}
+
+.produk {
+    display: flex;
+    align-items: center;
+}
+
+.produk-logo>img {
+    width: 70px;
+    height: 70px;
+}
+
+.nama {
+    display: flex;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.nama-1 {
+    color: #0c354d;
+    font-family: Garamond;
+}
+
+.nama-2 {
+    color: #7ac8fc;
+    font-family: Garamond;
+}
+
+.menu {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.menu>li {
+    list-style-type: none;
+    /* justify-content: space-between; */
+}
+
+.menu>li>a {
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.menu>li>a:hover {
+    border-radius: 50px;
+    background-color: #a8e890;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px black;
+}
+
+.contact {
+    color: red;
+    background-color: #a8e890;
+    border-radius: 50px;
+}
+
+.link {
+    color: black;
+}
+
+li {
+    transition: .5s;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+.search>input {
+    height: 20px;
+    width: 200px;
+}
+
+.search>a>i {
+    color: black;
+    transition: .5s;
+}
+
+.search>a>i:hover {
+    transform: scale(1.2);
+}
+
+/* body */
+
+.body {
+    margin: 20px;
+    height: 400px;
+}
+
+.text {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.socmed {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+.socmed>div:hover {
+    box-shadow: 0px 0px 10px #749f82;
+}
+
+.ig,.twit,.tito,.yt {
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 100px;
+    margin-right: 5px;
+    transition: .3s;
+}
+
+.ig>img,
+.twit>img,
+.tito>img,
+.yt>img {
+    margin-left: 5px;
+    border-radius: 30px;
+    width: 90px;
+    height: 90px;
+}
+
+.ig>a,
+.twit>a,
+.tito>a,
+.yt>a {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.kontak {
+    margin: 10px 50px 50px 50px;
+    display: flex;
+}
+
+.kontak>div {
+    margin: 0px 0px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 120px;
+    transition: .3s;
+}
+
+.kontak>div:hover {
+    box-shadow: 0px 0px 10px #749f82;
+}
+
+.kontak>div>a {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.kontak>div>img {
+    margin-left: 5px;
+    border-radius: 20px;
+    width: 110px;
+    height: 110px;
+}
+
+
+.mitra {
+    background-color: #749f82;
+    /* padding: 10px; */
+}
+
+.mitra-text {
+    font-size: 30px;
+    margin-left: 640px;
+    padding-top: 10px;
+    font-family: Garamond;
+}
+
+.mitra-logo {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 390px;
+    margin-right: 60px;
+    padding-bottom: 10px;
+}
+
+
+.logo>a>img {
+    width: 110px;
+    height: 85px;
+    filter: opacity(50%);
+    border-radius: 20px;
+    /* margin: 10px;
+    padding: 10px; */
+    /* justify-content: center; */
+}
+
+.logo {
+    border-radius: 20px;
+    width: 110px;
+    height: 85px;
+    margin: 5px 100px 3px 0px;
+    align-items: center;
+    /* filter: grayscale(50%); */
+    transition: .5s;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px black;
+}
+
+.logo>a>img:hover {
+    filter: grayscale(0%);
+}
+
+
+.footer {
+    background-color: #a8e890;
+    padding: 6px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
